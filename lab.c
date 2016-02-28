@@ -28,7 +28,7 @@ int main() {
 	int allDays = 0;
 	printf("Birthday\n");
 	scanf("%d.%d.%d %d:%d", &day, &month, &year, &hour, &minute);
-	// long seconds = ((((((c_year - year) ) * leap + c_day - day) * 24 + c_hour - hour) * 60 + c_minute - minute) * 60);
+
 	i = year;
 	
 	while(i <= c_year){
